@@ -4,3 +4,9 @@ dist/
 *.pem
 ~/.walmart-mcp/
 *.local
+
+# 本地工具/探针产物，不入库
+.workbuddy/
+_write_probe.txt
+local/analysis_out/
+local/report/

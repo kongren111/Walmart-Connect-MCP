@@ -13,6 +13,9 @@
     "dev": "tsx src/index.ts",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
+    "web": "node local/server.mjs",
+    "web:test": "node local/test.mjs",
+    "analyze": "node local/analyze-real.mjs && node local/build-report.mjs",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
